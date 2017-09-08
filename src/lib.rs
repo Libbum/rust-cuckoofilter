@@ -21,6 +21,8 @@
 
 mod bucket;
 mod util;
+mod c_api;
+pub use c_api::*;
 
 extern crate rand;
 extern crate byteorder;

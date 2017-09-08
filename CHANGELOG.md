@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v0.4.0] - Unreleased
 ### Added
+- Added a C interface for embedding this crate into other languages.
+  The interface is an additional crate, located in the cabi/ subfolder.
 ### Changed
 - add() now returns Result<(), CuckooError> instead of a bool, and returns a NotEnoughSpaceError instead of panicking
   when insertion fails.
